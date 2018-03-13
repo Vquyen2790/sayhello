@@ -1,0 +1,21 @@
+{
+    "name": "vquyen2790/hello-world",
+    "description": "the first composer package",
+    "type": "php",
+    "license": "aaa",
+    "authors": [
+        {
+            "name": "VQuyen2790",
+            "email": "vquyen2790@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "vquyen2790\\SayHello\\": "src/"
+        }
+    }
+}
